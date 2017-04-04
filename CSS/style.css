@@ -1,0 +1,410 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*************************************************/
+/* end http://meyerweb.com/eric/tools/css/reset/ */
+/*************************************************/
+
+
+/*************************************************/
+/* css for all three pages */
+/*************************************************/
+
+html {
+    font-family: verdana, cursive, sans-serif;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../IMG/bluecircle.png");
+    background-attachment: local;
+    background-size: cover;
+}
+
+header {
+    margin: 0;
+    padding: 00px;
+    height: 4%;
+    position: relative;
+}
+
+
+/* title is inside header */
+
+h2#title {
+    text-align: center;
+    font-size: 1.50em;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+}
+
+nav#horiz {
+    margin-left: -10px;
+    height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    background-color: darkslategrey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav#horiz ul {
+    list-style-type: none;
+    margin-left: 35%;
+    overflow: hidden;
+}
+
+nav#horiz ul li {
+    float: left;
+    margin: 0 0px;
+    padding-right: 60px;
+}
+
+nav#horiz ul li a {
+    display: block;
+    color: white;
+    padding-top: 8px;
+    text-decoration: none;
+}
+
+nav#horiz ul li a:hover {
+    color: aqua;
+}
+
+footer {
+    border-radius: 5px;
+    padding: 5px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    text-shadow: 1px 1px red;
+}
+
+.name {
+    color: red;
+    font-weight: 200;
+}
+
+
+/* For nav bar */
+
+.active {
+    background-color: blue;
+    color: white;
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
+}
+
+/*************************************************/
+/* css for the HOME page */
+/*************************************************/
+
+div#container {
+    width: 1000px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+aside {
+    box-sizing: border-box;
+    width: 13%;
+    height: 70%;
+    position: relative;
+    top: 100px;
+    left: 10px;
+    float: left;
+    font-family: cursive;
+    font-size: small;
+}
+
+h3#aside {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-variant: small-caps;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px red;
+}
+
+main {
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 20px;
+    width: 80%;
+    height: auto;
+    float: left;
+}
+
+p#intro {
+    padding-top: 50px;
+    font-size: 1.0em;
+}
+
+#absolutecontainer {
+    position: relative;
+    height: 250px;
+}
+
+.video {
+    padding-top: 20px;
+    width: 20%;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+
+
+/* Child box of the video box */
+
+.script_video {
+    position: absolute;
+    top: -5px;
+    left: 35px;
+}
+
+.iframe {
+    padding-top: 20px;
+    width: 20%;
+    position: absolute;
+    top: 35px;
+    left: 250px;
+}
+
+
+/* Child box of the iframe box */
+
+.script_iframe {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.img {
+    padding-top: 20px;
+    width: 25%;
+    position: absolute;
+    top: 35px;
+    left: 450px;
+}
+
+
+/* Child box of the img box */
+
+.script_img {
+    position: absolute;
+    top: -5px;
+    left: 45px;
+}
+
+img {
+    margin: 00px;
+    width: 100%;
+    height: 100%;
+}
+
+p#conclusion {
+    padding-top: 20px;
+    font-size: 1.0em;
+}
+
+
+/* vertical nav bar */
+
+nav#vertic ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    position: relative;
+    border: 1px solid #555;
+}
+
+nav#vertic ul li {
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+nav#vertic ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+/*************************************************/
+
+
+/* css for the Resume pages */
+
+
+/*************************************************/
+
+div#container_resume {
+    width: 1000px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: seagreen;
+}
+
+section {
+    box-sizing: border-box;
+    position: relative;
+}
+
+h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    text-shadow: 2px 2px #2e2d30;
+}
+
+#degree1 {
+    text-align: center;
+    text-shadow: 1px 1px red;
+}
+
+#degree2 {
+    text-align: center;
+    text-shadow: 1px 1px red;
+}
+
+
+/*************************************************/
+
+
+/* css for the GithubSetup pages */
+
+
+/*************************************************/
+
+div#container_github {
+    width: 1000px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: sandybrown;
+}
+
+article {
+    padding-top: 80px;
+    position: relative;
+}
+
+ol.first {
+    list-style: decimal;
+    padding-left: 30px;
+    margin: 10px;
+}
+
+ul.github {
+    list-style: circle;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+ul.third {
+    list-style: disc;
+    padding-left: 40px;
+    margin: 10px;
+}
+
+
+
+

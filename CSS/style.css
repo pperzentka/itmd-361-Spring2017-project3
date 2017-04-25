@@ -1,29 +1,98 @@
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 
 article,
@@ -66,13 +135,23 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+
 /*************************************************/
+
+
 /* end http://meyerweb.com/eric/tools/css/reset/ */
+
+
 /*************************************************/
 
 
 /*************************************************/
+
+
 /* css for all three pages */
+
+
 /*************************************************/
 
 html {
@@ -173,8 +252,13 @@ a:hover {
     color: white;
 }
 
+
 /*************************************************/
+
+
 /* css for the HOME page */
+
+
 /*************************************************/
 
 div#container {
@@ -319,6 +403,8 @@ nav#vertic ul li a {
     padding: 8px 16px;
     text-decoration: none;
 }
+
+
 /*************************************************/
 
 
@@ -406,5 +492,33 @@ ul.third {
 }
 
 
+/*************************************************/
 
 
+/* css for all Slide show page */
+
+
+/*************************************************/
+
+div#container_slideshow {
+    width: 1000px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: sandybrown;
+}
+
+div#container_slider {
+    box-sizing: border-box;
+    position: relative;
+    left: 20%;
+    top: 2%;
+    bottom: 30%;
+    width: 60%;
+    align-content: center;
+    border-style: groove;
+    border-width: 18px;
+}
